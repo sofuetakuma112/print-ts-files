@@ -1,6 +1,6 @@
 import { vol } from "memfs";
 
-import { printFileContents, tryResolveImport } from "./print-ts-files";
+import { printFileContents, tryResolveImport } from "../index";
 
 // memfsのモックを設定
 jest.mock("fs", () => {
