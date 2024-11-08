@@ -1,6 +1,6 @@
 {
   "name": "print-ts-files",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "TypeScriptファイルの内容を表示するツール",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,7 +13,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "prepare": "npm run build"
+    "prepare": "npm run build && chmod +x dist/index.js"
   },
   "keywords": ["typescript", "file", "printer"],
   "author": "sofuetakuma112",
